@@ -12,8 +12,12 @@ html{
     background-color: black;
 }
 
-li, a, svg button{
-    
+li:hover, a:hover{
+    color: #bdae82;
+}
+
+button{
+    padding: 0%;
 }
 
 nav{
@@ -24,9 +28,16 @@ nav{
 }
 
 svg{
+    transition: all 0.3s ease-in-out;
+    fill : white;
     height: 100%;
     width: 100%;
     cursor: pointer;
+}
+
+.logo svg:hover, footer svg:hover{
+    fill: #bdae82;
+    stroke: #bdae82;
 }
 
 .logo{
@@ -35,7 +46,12 @@ svg{
 
 }
 
+.forest.active{
+    fill: #bdae82;
+}
+
 li{
+    transition: all 0.3s ease-in-out;
     list-style-type: none;
     cursor: pointer;
 }
@@ -55,6 +71,10 @@ li{
     padding: 0 20px;
 }
 
+.nav-items.active{
+    color: #bdae82;
+}
+
 .main{
     background: url(/assets/img/forest.jpg);
     height: calc(100vh - 120px);
@@ -64,18 +84,28 @@ li{
     align-items: center;
 }
 .play{
+    transition: all 0.3s ease-in-out;
     border: none;
     width: 160px;
     height: 160px;
     background-color: transparent;
 }
 
+.play:hover {
+    filter: brightness(.85);
+}
+
 .pause{
+    transition: all 0.3s ease-in-out;
     display: none;
     border: none;   
     width: 160px;
     height: 160px;
     background-color: transparent;
+}
+
+.pause:hover {
+    filter: brightness(.85);
 }
 
 footer{
@@ -99,6 +129,7 @@ footer{
 }
 
 footer a {
+    transition: all 0.3s ease-in-out;
     text-decoration: none;
     height: 50px;
     padding: 0 0 0 20px;
