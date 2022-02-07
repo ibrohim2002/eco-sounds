@@ -16,7 +16,7 @@ const a6 = document.getElementById("slavka")
 var current=a1
 
 forest.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/forest.jpg)"
+    main.style.backgroundImage = "url(/assets/img/forest.jpg)"
     current.pause()
     current=a1
     a1.play()
@@ -24,7 +24,7 @@ forest.addEventListener('click', () => {
     play.style.display = "none"
 })
 solovey.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/solovey.jpg)"
+    main.style.backgroundImage = "url(/assets/img/solovey.jpg)"
     a2.play()
     current.pause()
     current=a2
@@ -32,7 +32,7 @@ solovey.addEventListener('click', () => {
     play.style.display = "none"
 })
 drozd.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/drozd.jpg)"
+    main.style.backgroundImage = "url(/assets/img/drozd.jpg)"
     a3.play()
     current.pause()
     current=a3
@@ -40,7 +40,7 @@ drozd.addEventListener('click', () => {
     play.style.display = "none"
 })
 zarynka.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/zarynka.jpg)"
+    main.style.backgroundImage = "url(/assets/img/zarynka.jpg)"
     a4.play()
     current.pause()
     current=a4
@@ -48,7 +48,7 @@ zarynka.addEventListener('click', () => {
     play.style.display = "none"
 })
 javoronok.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/javoronok.jpg)"
+    main.style.backgroundImage = "url(/assets/img/javoronok.jpg)"
     a5.play()
     current.pause()
     current=a5
@@ -56,7 +56,7 @@ javoronok.addEventListener('click', () => {
     play.style.display = "none"
 })
 slavka.addEventListener('click', () => {
-    main.style.backgroundImage = "url(/sounds/assets/img/slavka.jpg)"
+    main.style.backgroundImage = "url(/assets/img/slavka.jpg)"
     a6.play()
     current.pause()
     current=a6

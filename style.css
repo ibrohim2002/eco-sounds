@@ -56,7 +56,7 @@ li{
 }
 
 .main{
-    background: url(/sounds/assets/img/forest.jpg);
+    background: url(/assets/img/forest.jpg);
     height: calc(100vh - 120px);
     background-size: cover;
     display: flex;
